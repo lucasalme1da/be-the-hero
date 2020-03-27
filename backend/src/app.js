@@ -1,6 +1,8 @@
 const express = require('express') // Importando o modulo express - variavel contem todas funcionalidades dele
 const routes = require('./routes') // tem que passar o ./ para referenciar a pasta quando é um arquivo
+const { errors } = require('celebrate')
 const cors = require('cors')
+
 const app = express()
 
 // app.use(cors({
@@ -10,6 +12,7 @@ const app = express()
 app.use(cors())
 app.use(express.json()) // Obrigatório para transformar os JSON (requisções)
 app.use(routes)
+app.use(errors())
 
 // Rota e Recurso
 /**
@@ -48,10 +51,4 @@ app.use(routes)
  * 
  * 
  */
-
-
-
-
-
-app.listen(3333) // Acesso via localhost 127.0.0.1
-
+module.exports = app
