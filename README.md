@@ -1,7 +1,7 @@
 <h1 align="center"> 
   <img alt="Be The Hero!" src="frontend\src\assets\logo.svg">
 </h1>
-<p align="center"> Projeto desenvolvido durante a <strong>Semana OmniStack 11.0</strong> da <strong>RocketSeat</strong>! 🚀 </p>
+<p align="center"> Projeto desenvolvido durante a <strong>Semana OmniStack 11.0</strong> da <strong>Rocketseat</strong>! 🚀 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-DONE-success?style=flat-square"></img>
@@ -19,7 +19,7 @@
 ## 📓 O Projeto
 
 <p>O app <strong>Be The Hero</strong> foi desenvolvido com a finalidade de proporcionar às ONG's a possibilidade de encontrar colaboradores de forma mais prática.</p>
-<p>Com ele, as ONG's podem entrar no site, se cadastrar e publicar os casos que estiverem precisando de apoio financeiro para que assim qualquer pessoa com o app Mobile (Android ou iOS) possam visualizar os casos e entrarem em contato via E-mail ou WhatsApp.</p>
+<p>Com ele, as ONG's podem entrar no site, se cadastrar e publicar os casos que estiverem precisando de apoio financeiro para que assim qualquer pessoa com o app Mobile (Android ou iOS) possa visualizar os casos e entrar em contato via E-mail ou WhatsApp.</p>
 <img align="center" src="presentation.png"/>
 
 ## 🔧 Tecnologias
